@@ -78,7 +78,10 @@ var example = angular.module('starter', ['ionic'])
 			origin: org,
 			destination: dest,
 			waypoints: wps,
-			travelMode: google.maps.DirectionsTravelMode.DRIVING
+			optimizeWaypoints:true,
+			travelMode: google.maps.DirectionsTravelMode.DRIVING,
+			//provideTripAlternatives: true
+			//alternatives:true
 			};
 
 
